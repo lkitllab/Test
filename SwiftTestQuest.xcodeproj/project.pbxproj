@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		474AE30326088FE1004F42AD /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AE30226088FE1004F42AD /* Credentials.swift */; };
+		478ECD9F26089C95007F53A5 /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478ECD9E26089C95007F53A5 /* SignInService.swift */; };
+		478ECDA426089F32007F53A5 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 478ECDA326089F32007F53A5 /* Moya */; };
+		478ECDA626089F32007F53A5 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 478ECDA526089F32007F53A5 /* ReactiveMoya */; };
+		478ECDA826089F32007F53A5 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 478ECDA726089F32007F53A5 /* RxMoya */; };
+		478ECDAB2608A260007F53A5 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478ECDAA2608A260007F53A5 /* AppContainer.swift */; };
 		47F080B6260867580020D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080B5260867580020D1B3 /* AppDelegate.swift */; };
 		47F080B8260867580020D1B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080B7260867580020D1B3 /* SceneDelegate.swift */; };
-		47F080BA260867580020D1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080B9260867580020D1B3 /* ViewController.swift */; };
-		47F080BD260867580020D1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F080BB260867580020D1B3 /* Main.storyboard */; };
+		47F080BA260867580020D1B3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080B9260867580020D1B3 /* SignInViewController.swift */; };
 		47F080BF260867590020D1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F080BE260867590020D1B3 /* Assets.xcassets */; };
 		47F080C2260867590020D1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F080C0260867590020D1B3 /* LaunchScreen.storyboard */; };
+		47F080CF26086D4F0020D1B3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080CE26086D4F0020D1B3 /* AppCoordinator.swift */; };
+		47F080D226086D740020D1B3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080D126086D740020D1B3 /* Coordinator.swift */; };
+		47F080D626086E810020D1B3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080D526086E810020D1B3 /* StartViewController.swift */; };
+		47F080DA26086F130020D1B3 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080D926086F130020D1B3 /* StartCoordinator.swift */; };
+		47F080E026086FEB0020D1B3 /* SignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080DF26086FEB0020D1B3 /* SignInCoordinator.swift */; };
+		47F080E5260883F60020D1B3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 47F080E4260883F60020D1B3 /* RxSwift */; };
+		47F080E7260883F60020D1B3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 47F080E6260883F60020D1B3 /* RxRelay */; };
+		47F080E9260883F60020D1B3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 47F080E8260883F60020D1B3 /* RxCocoa */; };
+		47F080EB260883F60020D1B3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 47F080EA260883F60020D1B3 /* RxBlocking */; };
+		47F080F2260884DF0020D1B3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F080F1260884DF0020D1B3 /* SignInViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		474AE30226088FE1004F42AD /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		478ECD9E26089C95007F53A5 /* SignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
+		478ECDAA2608A260007F53A5 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		47F080B2260867580020D1B3 /* SwiftTestQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F080B5260867580020D1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F080B7260867580020D1B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47F080B9260867580020D1B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47F080BC260867580020D1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F080B9260867580020D1B3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		47F080BE260867590020D1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F080C1260867590020D1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47F080C3260867590020D1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F080CE26086D4F0020D1B3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		47F080D126086D740020D1B3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		47F080D526086E810020D1B3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		47F080D926086F130020D1B3 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
+		47F080DF26086FEB0020D1B3 /* SignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCoordinator.swift; sourceTree = "<group>"; };
+		47F080F1260884DF0020D1B3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +54,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F080E9260883F60020D1B3 /* RxCocoa in Frameworks */,
+				47F080EB260883F60020D1B3 /* RxBlocking in Frameworks */,
+				47F080E7260883F60020D1B3 /* RxRelay in Frameworks */,
+				478ECDA426089F32007F53A5 /* Moya in Frameworks */,
+				478ECDA826089F32007F53A5 /* RxMoya in Frameworks */,
+				47F080E5260883F60020D1B3 /* RxSwift in Frameworks */,
+				478ECDA626089F32007F53A5 /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		474AE2FE26088FCE004F42AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				474AE30226088FE1004F42AD /* Credentials.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478ECD9D26089C1B007F53A5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				478ECD9E26089C95007F53A5 /* SignInService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		478ECDAD2608A3D3007F53A5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				47F080D126086D740020D1B3 /* Coordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		47F080A9260867580020D1B3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +110,39 @@
 		47F080B4260867580020D1B3 /* SwiftTestQuest */ = {
 			isa = PBXGroup;
 			children = (
-				47F080B5260867580020D1B3 /* AppDelegate.swift */,
+				478ECDAD2608A3D3007F53A5 /* Protocol */,
+				478ECD9D26089C1B007F53A5 /* Network */,
+				474AE2FE26088FCE004F42AD /* Model */,
+				47F080F02608849E0020D1B3 /* Start */,
+				47F080EF2608849A0020D1B3 /* SignIn */,
 				47F080B7260867580020D1B3 /* SceneDelegate.swift */,
-				47F080B9260867580020D1B3 /* ViewController.swift */,
-				47F080BB260867580020D1B3 /* Main.storyboard */,
+				47F080B5260867580020D1B3 /* AppDelegate.swift */,
+				478ECDAA2608A260007F53A5 /* AppContainer.swift */,
+				47F080CE26086D4F0020D1B3 /* AppCoordinator.swift */,
 				47F080BE260867590020D1B3 /* Assets.xcassets */,
 				47F080C0260867590020D1B3 /* LaunchScreen.storyboard */,
 				47F080C3260867590020D1B3 /* Info.plist */,
 			);
 			path = SwiftTestQuest;
+			sourceTree = "<group>";
+		};
+		47F080EF2608849A0020D1B3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				47F080DF26086FEB0020D1B3 /* SignInCoordinator.swift */,
+				47F080B9260867580020D1B3 /* SignInViewController.swift */,
+				47F080F1260884DF0020D1B3 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		47F080F02608849E0020D1B3 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				47F080D926086F130020D1B3 /* StartCoordinator.swift */,
+				47F080D526086E810020D1B3 /* StartViewController.swift */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,15 @@
 			dependencies = (
 			);
 			name = SwiftTestQuest;
+			packageProductDependencies = (
+				47F080E4260883F60020D1B3 /* RxSwift */,
+				47F080E6260883F60020D1B3 /* RxRelay */,
+				47F080E8260883F60020D1B3 /* RxCocoa */,
+				47F080EA260883F60020D1B3 /* RxBlocking */,
+				478ECDA326089F32007F53A5 /* Moya */,
+				478ECDA526089F32007F53A5 /* ReactiveMoya */,
+				478ECDA726089F32007F53A5 /* RxMoya */,
+			);
 			productName = SwiftTestQuest;
 			productReference = 47F080B2260867580020D1B3 /* SwiftTestQuest.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +197,10 @@
 				Base,
 			);
 			mainGroup = 47F080A9260867580020D1B3;
+			packageReferences = (
+				47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				478ECDA226089F32007F53A5 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 47F080B3260867580020D1B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +217,6 @@
 			files = (
 				47F080C2260867590020D1B3 /* LaunchScreen.storyboard in Resources */,
 				47F080BF260867590020D1B3 /* Assets.xcassets in Resources */,
-				47F080BD260867580020D1B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +227,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F080BA260867580020D1B3 /* ViewController.swift in Sources */,
+				478ECDAB2608A260007F53A5 /* AppContainer.swift in Sources */,
+				47F080CF26086D4F0020D1B3 /* AppCoordinator.swift in Sources */,
+				47F080BA260867580020D1B3 /* SignInViewController.swift in Sources */,
+				47F080D226086D740020D1B3 /* Coordinator.swift in Sources */,
+				478ECD9F26089C95007F53A5 /* SignInService.swift in Sources */,
 				47F080B6260867580020D1B3 /* AppDelegate.swift in Sources */,
 				47F080B8260867580020D1B3 /* SceneDelegate.swift in Sources */,
+				47F080DA26086F130020D1B3 /* StartCoordinator.swift in Sources */,
+				474AE30326088FE1004F42AD /* Credentials.swift in Sources */,
+				47F080E026086FEB0020D1B3 /* SignInCoordinator.swift in Sources */,
+				47F080F2260884DF0020D1B3 /* SignInViewModel.swift in Sources */,
+				47F080D626086E810020D1B3 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47F080BB260867580020D1B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47F080BC260867580020D1B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47F080C0260867590020D1B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +432,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		478ECDA226089F32007F53A5 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+		47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		478ECDA326089F32007F53A5 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 478ECDA226089F32007F53A5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		478ECDA526089F32007F53A5 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 478ECDA226089F32007F53A5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		478ECDA726089F32007F53A5 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 478ECDA226089F32007F53A5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		47F080E4260883F60020D1B3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		47F080E6260883F60020D1B3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		47F080E8260883F60020D1B3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		47F080EA260883F60020D1B3 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47F080E3260883F60020D1B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 47F080AA260867580020D1B3 /* Project object */;
 }
